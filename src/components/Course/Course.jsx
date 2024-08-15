@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { FaDollarSign } from "react-icons/fa6";
 import { LuBookOpen } from "react-icons/lu";
 
-const Course = ({ course }) => {
+const Course = ({ course,handleSelectCourse }) => {
     const { img, course_name, credit_hour, cr_des, price } = course;
 
     return (
@@ -21,7 +21,7 @@ const Course = ({ course }) => {
                         <LuBookOpen />Credit: {credit_hour} hr
                     </p>
                 </div>
-                <button className="bg-sky-400 px-6 py-2 rounded-xl text-white transition-transform transform hover:scale-105 hover:bg-sky-600">
+                <button onClick={() =>handleSelectCourse(course)} className="bg-sky-400 px-6 py-2 rounded-xl text-white transition-transform transform hover:scale-105 hover:bg-sky-600">
                     Select
                 </button>
             </div>
@@ -36,6 +36,7 @@ Course.propTypes = {
         credit_hour: PropTypes.number.isRequired,
         cr_des: PropTypes.string.isRequired,
         price: PropTypes.number.isRequired,
-    }).isRequired,
+        handleSelectCourse: PropTypes.func
+    })
 };
 export default Course;
