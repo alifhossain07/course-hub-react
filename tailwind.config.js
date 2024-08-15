@@ -5,8 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-bg': 'rgb(211, 207, 207)', // Add your custom background color
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+  ('daisyui'),
+  ],
 }
 

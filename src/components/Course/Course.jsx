@@ -28,6 +28,7 @@ const Course = ({ course,handleSelectCourse }) => {
         </div>
     );
 };
+
 Course.propTypes = {
     course: PropTypes.shape({
         id: PropTypes.number.isRequired,

@@ -7,8 +7,9 @@
 
 body{
   font-family: "Inter", sans-serif;
-  width: 90%; /* Set the desired width */
+  /* Set the desired width */
     margin: 0 auto; /* Center the body */
     padding-top: 30px;
     background-color: rgb(211, 207, 207);
+    
 }
