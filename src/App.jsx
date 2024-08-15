@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Courses from './components/Courses/Courses';
 import Details from './components/Details/Details';
 import IntroBanner from './components/IntroBanner/IntroBanner';
+import Credit from './components/Credit/Credit';
 import { useState } from 'react';
 import 'daisyui/dist/full.css'; 
 
@@ -38,7 +39,7 @@ function App() {
     <div className='w-10/12 mx-auto'>
       <Header />
       <IntroBanner />
-      <div className='flex'>
+      <div className='flex flex-col md:flex-row lg:flex-row'>
         <Courses handleSelectCourse={handleSelectCourse} />
         <Details selectedCourses={selectedCourses} totalCreditHours={totalCreditHours} />
       </div>
@@ -62,7 +63,11 @@ function App() {
           </div>
         </div>
       )}
+
+      <Credit></Credit>
       </div>
+
+      
   );
 }
 

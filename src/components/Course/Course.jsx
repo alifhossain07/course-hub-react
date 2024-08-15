@@ -37,7 +37,8 @@ Course.propTypes = {
         credit_hour: PropTypes.number.isRequired,
         cr_des: PropTypes.string.isRequired,
         price: PropTypes.number.isRequired,
-        handleSelectCourse: PropTypes.func
-    })
+        
+    }),
+    handleSelectCourse: PropTypes.func
 };
 export default Course;
