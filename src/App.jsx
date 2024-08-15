@@ -1,12 +1,19 @@
 import './App.css'
-import Test from './test'
+import Header from './components/Header/Header'
+
+import Courses from './components/Courses/courses'
 
 function App() {
   
 
   return (
     <>
-      
+      <Header></Header>
+      <div>
+      <Courses></Courses>
+      </div>
+     
+    
     </>
   )
 }

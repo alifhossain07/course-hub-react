@@ -9,4 +9,5 @@ body{
   font-family: "Inter", sans-serif;
   width: 80%; /* Set the desired width */
     margin: 0 auto; /* Center the body */
+    padding-top: 30px;
 }
