@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img": "/assets/cprogramming.png",
+        "course_name": "Introduction to C Programming",
+        "credit_hour": 3,
+        "cr_des": "This course provides a comprehensive introduction to C programming. Learn the basics of syntax, functions, and memory management.",
+        "price": 100
+    },
+    {
+        "id": 2,
+        "img": "/assets/cdsa.png",
+        "course_name": "Introduction to C++ for DSA",
+        "credit_hour": 4,
+        "cr_des": "Master data structures and algorithms with C++. This course focuses on practical implementations and optimization techniques.",
+        "price": 150
+    },
+    {
+        "id": 3,
+        "img": "/assets/oopython.png",
+        "course_name": "Introduction to OOP Python",
+        "credit_hour": 3,
+        "cr_des": "Learn the principles of Object-Oriented Programming using Python. This course covers classes, inheritance, and polymorphism.",
+        "price": 120
+    },
+    {
+        "id": 4,
+        "img": "/assets/aws.png",
+        "course_name": "AWS Essentials",
+        "credit_hour": 2,
+        "cr_des": "Get started with Amazon Web Services (AWS). Learn about the core services, including EC2, S3, and RDS, to build scalable applications.",
+        "price": 130
+    },
+    {
+        "id": 5,
+        "img": "/assets/ccf.png",
+        "course_name": "Cloud Computing Fundamentals",
+        "credit_hour": 3,
+        "cr_des": "Understand the basics of cloud computing, including architecture, deployment models, and service models. Explore different cloud platforms.",
+        "price": 110
+    },
+    {
+        "id": 6,
+        "img": "/assets/apythonp.png",
+        "course_name": "Advanced Python Programming",
+        "credit_hour": 4,
+        "cr_des": "Enhance your Python skills with advanced concepts such as decorators, generators, and multithreading. Suitable for experienced developers.",
+        "price": 140
+    },
+    {
+        "id": 7,
+        "img": "/assets/mlp.png",
+        "course_name": "Machine Learning with Python",
+        "credit_hour": 5,
+        "cr_des": "Dive into machine learning using Python. This course covers algorithms, libraries, and practical applications of machine learning.",
+        "price": 200
+    },
+    {
+        "id": 8,
+        "img": "/assets/devops.png",
+        "course_name": "Introduction to DevOps",
+        "credit_hour": 3,
+        "cr_des": "Learn the essentials of DevOps practices. This course covers continuous integration, continuous deployment, and infrastructure as code.",
+        "price": 125
+    },
+    {
+        "id": 9,
+        "img": "/assets/datascience.png",
+        "course_name": "Introduction to Data Science",
+        "credit_hour": 4,
+        "cr_des": "Begin your journey into data science with this introductory course. Learn about data analysis, visualization, and statistical modeling.",
+        "price": 180
+    }
+]
