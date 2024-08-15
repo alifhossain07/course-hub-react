@@ -58,7 +58,7 @@
     {
         "id": 8,
         "img": "/assets/devops.png",
-        "course_name": "Introduction to DevOps",
+        "course_name": "Introduction to DevOps Learning",
         "credit_hour": 3,
         "cr_des": "Learn the essentials of DevOps practices. This course covers continuous integration, continuous deployment, and infrastructure as code.",
         "price": 125
